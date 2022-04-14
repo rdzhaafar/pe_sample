@@ -4,3 +4,4 @@ samples
 secret.py
 .gitignore
 venv
+example.ipynb
