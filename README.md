@@ -1,7 +1,6 @@
 # pe_sample
 
-A Jupyter notebook template for automated analysis of
-PE malware samples.
+A malbook template for automated analysis of PE malware samples.
 
 ## Requirements
 
@@ -137,8 +136,7 @@ sample.
 
 ## Preparing the virtual machine for Process Monitor tracing
 
-1. [Create](https://www.virtualbox.org/manual/ch01.html#gui-createvm) a new Windows 10 64-bit virtual machine. Make sure that Windows is installed to 
-the `C:\` drive
+1. [Create](https://www.virtualbox.org/manual/ch01.html#gui-createvm) a new Windows 10 64-bit virtual machine.
 2. [Disable](https://support.microsoft.com/en-us/windows/turn-microsoft-defender-firewall-on-or-off-ec0844f7-aebd-0583-67fe-601ecf5d774f#ID0EFD=Windows_10) the firewall and ensure that VM can accept incoming network connections
 3. [Disable](https://support.microsoft.com/en-us/windows/turn-off-defender-antivirus-protection-in-windows-security-99e6004f-c54c-8509-773c-a4d776b77960#:~:text=Select%20the%20Windows%20Security%20app,scans%20will%20continue%20to%20run.) Windows Defender live scanning
 4. [Install](https://www.python.org/downloads) Python
@@ -170,7 +168,7 @@ Windows Task Scheduler:
 - Click on **Apply**
 
 Additionally, it's a good idea to [take](https://www.virtualbox.org/manual/ch01.html#snapshots-take-restore-delete) a
-snapshot of the newly created virtual machine now.
+snapshot of the newly created virtual machine now, so that you can revert to it later if a malware sample damages it.
 
 # Acknowledgements
 
